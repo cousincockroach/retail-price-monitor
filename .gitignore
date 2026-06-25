@@ -1,0 +1,10 @@
+# Ignore the Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore local data stores and SQLite cache files
+data/*.db
+data/*.db-journal
+*.csv
